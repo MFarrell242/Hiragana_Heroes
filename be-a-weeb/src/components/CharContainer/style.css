@@ -1,0 +1,7 @@
+.charGrid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
