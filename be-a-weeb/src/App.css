@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  background-color: #282c34;
+  opacity: 80%;
+}
+
+.subText {
+  color: white;
+  text-align: center;
+}
