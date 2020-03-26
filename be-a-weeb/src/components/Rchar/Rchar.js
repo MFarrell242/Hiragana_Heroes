@@ -12,6 +12,7 @@ function Rchar() {
   return (
     <div>
       <CharContainer>
+        <h2>R</h2>
         <Character char={ra} />
         <Character char={ri} />
         <Character char={ru} />

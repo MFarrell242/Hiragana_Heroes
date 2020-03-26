@@ -12,6 +12,7 @@ function Mchar() {
   return (
     <div>
       <CharContainer>
+        <h2>M</h2>
         <Character char={ma} />
         <Character char={mi} />
         <Character char={mu} />

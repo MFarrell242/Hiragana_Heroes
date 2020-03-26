@@ -11,6 +11,7 @@ function Nchar() {
   return (
     <div>
       <CharContainer>
+        <h2>W/N</h2>
         <Character char={wa} />
         <Character char={blank} />
         <Character char={n} />

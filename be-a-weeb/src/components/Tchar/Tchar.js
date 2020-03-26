@@ -12,6 +12,7 @@ function Tchar() {
   return (
     <div>
       <CharContainer>
+        <h2>T/D</h2>
         <Character char={ta} />
         <Character char={chi} />
         <Character char={tsu} />

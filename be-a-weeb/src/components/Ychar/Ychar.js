@@ -11,6 +11,7 @@ function Ychar() {
   return (
     <div>
       <CharContainer>
+        <h2>Y</h2>
         <Character char={ya} />
         <Character char={blank} />
         <Character char={yu} />

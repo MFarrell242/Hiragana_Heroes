@@ -12,6 +12,7 @@ function Hchar() {
   return (
     <div>
       <CharContainer>
+        <h2>H/P/B</h2>
         <Character char={ha} />
         <Character char={hi} />
         <Character char={fu} />

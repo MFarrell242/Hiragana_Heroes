@@ -12,6 +12,7 @@ function Kchar() {
   return (
     <div>
       <CharContainer>
+        <h2>K/G</h2>
         <Character char={ka} />
         <Character char={ki} />
         <Character char={ku} />

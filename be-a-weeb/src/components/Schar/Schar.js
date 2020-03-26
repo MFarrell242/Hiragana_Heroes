@@ -12,6 +12,7 @@ function Schar() {
   return (
     <div>
       <CharContainer>
+        <h2>S/Z/J</h2>
         <Character char={sa} />
         <Character char={shi} />
         <Character char={su} />

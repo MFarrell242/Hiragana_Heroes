@@ -12,6 +12,7 @@ function Nchar() {
   return (
     <div>
       <CharContainer>
+        <h2>N</h2>
         <Character char={na} />
         <Character char={ni} />
         <Character char={nu} />
