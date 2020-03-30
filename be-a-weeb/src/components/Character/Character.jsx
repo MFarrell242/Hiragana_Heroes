@@ -4,7 +4,9 @@ import "./style.css";
 function Character(props) {
   return (
     <div className="charImage">
-      <img alt="character" src={props.char}></img>
+      <button onClick={props.onClick} type="button" class="btn btn-sm">
+        <img alt="character" src={`/images/hiragana/${props.char}.png`}></img>
+      </button>
     </div>
   );
 }

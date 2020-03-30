@@ -3,7 +3,7 @@ import "./style.css";
 
 function Vowel(props) {
   return (
-    <div>
+    <div className="vowelAlign">
       <h1>{props.vowel}</h1>
     </div>
   );

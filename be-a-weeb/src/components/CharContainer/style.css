@@ -2,8 +2,11 @@
   display: grid;
   grid-template-columns: auto;
   grid-gap: 10px;
-  background-color: #2196f3;
   padding: 10px;
+}
+.charBack {
+  width: 80%;
+  background-color: #2196f3;
 }
 
 h2 {
