@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
+import Learn from "./pages/Learn";
 import Login from './pages/Login';
 
 function App() {
-  return (
-    <Login />
-  );
+  return <Learn />;
 }
 
 export default App;

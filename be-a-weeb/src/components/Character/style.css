@@ -1,0 +1,13 @@
+img {
+  text-align: center;
+  height: 100px;
+  width: 70px;
+}
+
+.btn {
+  background-color: #ff66cc;
+}
+
+.btn:hover {
+  opacity: 80%;
+}
