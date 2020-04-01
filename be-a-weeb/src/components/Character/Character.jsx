@@ -11,8 +11,10 @@ function Character(props) {
   function handleImgChange() {
     if (image === "blank") {
       return url.src;
-    } else {
+    } else if (url.src === `/images/hiragana/${image}.png`) {
       setUrl({ ...url, src: `/images/hiragana/${image}-so.PNG` });
+    } else {
+      setUrl({ src: `/images/hiragana/${image}.png` });
     }
   }
 
