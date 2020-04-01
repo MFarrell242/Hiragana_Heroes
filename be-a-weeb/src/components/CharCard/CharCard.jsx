@@ -1,33 +1,59 @@
-import React from "react";
+import React, { Component } from "react";
+import hiragana from "../../characters.json";
+import Character from "../Character/Character";
 
-function CharCard(props) {
-  return (
-    <div className="card">
-      <div className="img-container">
-        <img alt="stuff" src="" />
+export default class CharCard extends Component(props) {
+  state = {
+    display: false
+  };
+
+  displayCard = () => {
+    this.setState({
+      display: !this.state.display
+    });
+  };
+
+  render(props) {
+    let character = props.char;
+
+    return (
+      <div className="card">
+        <div className="img-container">
+          <div className="charImage">
+            <button
+              onClick={this.displayCard()}
+              type="button"
+              class="btn btn-sm"
+            >
+              <img
+                alt="character"
+                src={`/images/hiragana/${character}.png`}
+              ></img>
+            </button>
+          </div>
+        </div>
+        <div>
+          {this.state.display && (
+            <div className="content">
+              <ul>
+                <li>
+                  <strong>Character:</strong> {hiragana.vowels.character.name}
+                </li>
+                <li>
+                  <strong>Sounds Like:</strong>{" "}
+                  {hiragana.vowels.character.sound}
+                </li>
+                <button type="button" class="btn btn-secondary">
+                  Stroke Order
+                </button>
+              </ul>
+            </div>
+          )}
+        </div>
       </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Character:</strong> {}
-          </li>
-          <li>
-            <strong>Sounds Like:</strong> Sound
-          </li>
-          <button
-            onClick={props.onClick}
-            type="button"
-            class="btn btn-secondary"
-          >
-            Stroke Order
-          </button>
-        </ul>
-      </div>
-    </div>
-  );
+    );
+  }
 }
-
-export default CharCard;
 
 // return (
 //   <div className="card">

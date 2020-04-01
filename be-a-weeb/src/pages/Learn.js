@@ -1,18 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "./main.css";
 //import { Link, Route } from "react-router-dom";
 import Nav from "../components/Nav/Nav";
 import Diagram from "../components/Diagram/Diagram";
-import CharCard from "../components/CharCard/CharCard";
 
 function Learn() {
-  const [setCard] = useState(false);
-
-  const displayCard = e => {
-    e.preventDefault();
-    setCard
-  };
-
   return (
     <div>
       <Nav />
@@ -26,7 +18,6 @@ function Learn() {
         </div>
       </div>
       <Diagram />
-      <CharCard onClick={ displayCard()} />
     </div>
   );
 }

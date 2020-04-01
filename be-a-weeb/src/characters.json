@@ -1,0 +1,222 @@
+{
+  "w/n": [
+    {
+      "name": "wa",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "blank",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "n",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "blank",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "wo",
+      "sound": "O in dOt"
+    }
+  ],
+  "r": [
+    {
+      "name": "ra",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "ri",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "ru",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "re",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "ro",
+      "sound": "O in dOt"
+    }
+  ],
+  "y": [
+    {
+      "name": "ya",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "blank",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "yu",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "blank",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "yo",
+      "sound": "O in dOt"
+    }
+  ],
+  "m": [
+    {
+      "name": "ma",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "mi",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "mu",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "me",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "mo",
+      "sound": "O in dOt"
+    }
+  ],
+  "h/b/p": [
+    {
+      "name": "ha",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "hi",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "fu",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "he",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "ho",
+      "sound": "O in dOt"
+    }
+  ],
+  "n": [
+    {
+      "name": "na",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "ni",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "nu",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "ne",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "no",
+      "sound": "O in dOt"
+    }
+  ],
+  "t/d": [
+    {
+      "name": "ta",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "chi",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "tsu",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "te",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "to",
+      "sound": "O in dOt"
+    }
+  ],
+  "s/z/j": [
+    {
+      "name": "sa",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "shi",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "su",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "se",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "so",
+      "sound": "O in dOt"
+    }
+  ],
+  "k/g": [
+    {
+      "name": "ka",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "ki",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "ku",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "ke",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "ko",
+      "sound": "O in dOt"
+    }
+  ],
+  "-": [
+    {
+      "name": "a",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "i",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "u",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "e",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "o",
+      "sound": "O in dOt"
+    }
+  ]
+}
