@@ -1,65 +1,58 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav/Nav";
-import { GoogleLogout } from "react-google-login";
-import { GoogleLogin } from "react-google-login";
-
-const responseGoogle = (response) => {
-    console.log(response);
-  }
+import LoginForm from "../components/Login-Form/Login-Form";
+import axios from 'axios'
 
 class Login extends Component {
-    state = {
-        isLogout: false
+  constructor() {
+    super()
+    this.state = {
+      loggedIn: false,
+      username: null
     }
 
-    logout = () => {
-        this.setState({ isLogout: true})
-    }
+    this.getUser = this.getUser.bind(this)
+    this.componentDidMount = this.componentDidMount.bind(this)
+    this.updateUser = this.updateUser.bind(this)
+  }
+
+  componentDidMount() {
+    this.getUser()
+  }
+
+  updateUser (userObject) {
+    this.setState(userObject)
+  }
+
+  getUser() {
+    axios.get('/user/').then(response => {
+      console.log('Get user response: ')
+      console.log(response.data)
+      if (response.data.user) {
+        console.log('Get User: There is a user saved in the server session: ')
+
+        this.setState({
+          loggedIn: true,
+          username: response.data.user.username
+        })
+      } else {
+        console.log('Get user: no user');
+        this.setState({
+          loggedIn: false,
+          username: null
+        })
+      }
+    })
+  }
+    
     
 
     render() {
-        console.log(this.state.isLogout);
+        
         return (
             <>
             <Nav />
-              <div className="container-fluid">
-                <div className="row justify-content-center" style={{ marginTop: 100 }}>
-                  <div className="col-4 text-center">
-                    
-                    <h5 className="">Create an account to start learning today!</h5>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-4 text-center"></div>
-                  <div className="col-4 text-center">
-                    {/* <div
-                      className="g-signin2"
-                      style={{ width: 100, margin: "auto" }}
-                      data-onsuccess="onSignIn"
-                    ></div> */}
-                    <div>
-                      <GoogleLogin
-                        clientId="517700874246-m90up0h8vl88da79nmh3bjo5602msrq3.apps.googleusercontent.com"
-                        buttonText="Login"
-                        onSuccess={responseGoogle}
-                        onFailure={responseGoogle}
-                        cookiePolicy={"single_host_origin"}
-                      />
-                    </div>
-                    <div>
-                      {/* <a href="#" onclick="signOut();">
-                        Sign out
-                      </a> */}
-                      <GoogleLogout
-                        clientId="517700874246-m90up0h8vl88da79nmh3bjo5602msrq3.apps.googleusercontent.com"
-                        buttonText="Logout"
-                        onLogoutSuccess={this.logout}
-                      ></GoogleLogout>
-                    </div>
-                  </div>
-                  <div className="col-4 text-center"></div>
-                </div>
-              </div>
+              <LoginForm />
             </>
           );
     }
