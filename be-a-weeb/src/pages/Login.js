@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Nav from "../components/Nav/Nav";
 import { GoogleLogout } from "react-google-login";
 import { GoogleLogin } from "react-google-login";
 
@@ -8,23 +9,24 @@ const responseGoogle = (response) => {
 
 class Login extends Component {
     state = {
-        isLogin: true
+        isLogout: false
     }
 
     logout = () => {
-        this.setState({ isLogin: false})
+        this.setState({ isLogout: true})
     }
     
 
     render() {
-        console.log(this.state.isLogin);
+        console.log(this.state.isLogout);
         return (
             <>
+            <Nav />
               <div className="container-fluid">
                 <div className="row justify-content-center" style={{ marginTop: 100 }}>
                   <div className="col-4 text-center">
-                    <h3 className="">Welcome to Hiragana Heroes</h3>
-                    <p className="">Create an account to start learning today!</p>
+                    
+                    <h5 className="">Create an account to start learning today!</h5>
                   </div>
                 </div>
                 <div className="row">

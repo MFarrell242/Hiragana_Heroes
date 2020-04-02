@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-//import { Link, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function Nav() {
   return (
@@ -12,19 +12,19 @@ function Nav() {
 
           <ul className="nav">
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/">
                 Login/Signup
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/learn">
                 Learn
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/practice">
                 Practice
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
