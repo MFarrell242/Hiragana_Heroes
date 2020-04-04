@@ -2,7 +2,7 @@
   "w/n": [
     {
       "name": "wa",
-      "sound": "O in dOt"
+      "sound": "WA in WAter"
     },
     {
       "name": "blank",
@@ -10,7 +10,7 @@
     },
     {
       "name": "n",
-      "sound": "O in dOt"
+      "sound": "N in Not"
     },
     {
       "name": "blank",
@@ -18,17 +18,17 @@
     },
     {
       "name": "wo",
-      "sound": "O in dOt"
+      "sound": "WO in WOn't"
     }
   ],
   "r": [
     {
       "name": "ra",
-      "sound": "O in dOt"
+      "sound": "RO in ROt"
     },
     {
       "name": "ri",
-      "sound": "O in dOt"
+      "sound": "RE in REfresh"
     },
     {
       "name": "ru",
@@ -36,17 +36,17 @@
     },
     {
       "name": "re",
-      "sound": "O in dOt"
+      "sound": "ROO in ROOt"
     },
     {
       "name": "ro",
-      "sound": "O in dOt"
+      "sound": "RO in ROw"
     }
   ],
   "y": [
     {
       "name": "ya",
-      "sound": "O in dOt"
+      "sound": "YA in YAcht"
     },
     {
       "name": "blank",
@@ -54,7 +54,7 @@
     },
     {
       "name": "yu",
-      "sound": "O in dOt"
+      "sound": "Like 'YOU'"
     },
     {
       "name": "blank",
@@ -62,161 +62,161 @@
     },
     {
       "name": "yo",
-      "sound": "O in dOt"
+      "sound": "YO in YOlk"
     }
   ],
   "m": [
     {
       "name": "ma",
-      "sound": "O in dOt"
+      "sound": "MA in MAw"
     },
     {
       "name": "mi",
-      "sound": "O in dOt"
+      "sound": "Like 'ME'"
     },
     {
       "name": "mu",
-      "sound": "O in dOt"
+      "sound": "MOO in MOO"
     },
     {
       "name": "me",
-      "sound": "O in dOt"
+      "sound": "ME in MEant"
     },
     {
       "name": "mo",
-      "sound": "O in dOt"
+      "sound": "MO in MOtion"
     }
   ],
   "h/b/p": [
     {
       "name": "ha",
-      "sound": "O in dOt"
+      "sound": "HA in HAha"
     },
     {
       "name": "hi",
-      "sound": "O in dOt"
+      "sound": "Like 'HE'"
     },
     {
       "name": "fu",
-      "sound": "O in dOt"
+      "sound": "FOO in FOOL"
     },
     {
       "name": "he",
-      "sound": "O in dOt"
+      "sound": "HE in HEmp"
     },
     {
       "name": "ho",
-      "sound": "O in dOt"
+      "sound": "HO in HOld"
     }
   ],
   "n": [
     {
       "name": "na",
-      "sound": "O in dOt"
+      "sound": "NO in NOt"
     },
     {
       "name": "ni",
-      "sound": "O in dOt"
+      "sound": "NEE in kNEEl"
     },
     {
       "name": "nu",
-      "sound": "O in dOt"
+      "sound": "Like 'NEW'"
     },
     {
       "name": "ne",
-      "sound": "O in dOt"
+      "sound": "NE in NEt"
     },
     {
       "name": "no",
-      "sound": "O in dOt"
+      "sound": "Like 'NO'"
     }
   ],
   "t/d": [
     {
       "name": "ta",
-      "sound": "O in dOt"
+      "sound": "TA in TAught"
     },
     {
       "name": "chi",
-      "sound": "O in dOt"
+      "sound": "CHEE in CHEEse"
     },
     {
       "name": "tsu",
-      "sound": "O in dOt"
+      "sound": "Tsu in kaTSU"
     },
     {
       "name": "te",
-      "sound": "O in dOt"
+      "sound": "TE in TEpid"
     },
     {
       "name": "to",
-      "sound": "O in dOt"
+      "sound": "TO in TOld"
     }
   ],
   "s/z/j": [
     {
       "name": "sa",
-      "sound": "O in dOt"
+      "sound": "Like 'SAW'"
     },
     {
       "name": "shi",
-      "sound": "O in dOt"
+      "sound": "Like 'SHE'"
     },
     {
       "name": "su",
-      "sound": "O in dOt"
+      "sound": "SU in SUite"
     },
     {
       "name": "se",
-      "sound": "O in dOt"
+      "sound": "SE in SEt"
     },
     {
       "name": "so",
-      "sound": "O in dOt"
+      "sound": "Like 'SO'"
     }
   ],
   "k/g": [
     {
       "name": "ka",
-      "sound": "O in dOt"
+      "sound": "CA in CAught"
     },
     {
       "name": "ki",
-      "sound": "O in dOt"
+      "sound": "Like 'KEY'"
     },
     {
       "name": "ku",
-      "sound": "O in dOt"
+      "sound": "COO in COOl"
     },
     {
       "name": "ke",
-      "sound": "O in dOt"
+      "sound": "KE in KEnt"
     },
     {
       "name": "ko",
-      "sound": "O in dOt"
+      "sound": "CO in 'COke'"
     }
   ],
   "-": [
     {
       "name": "a",
-      "sound": "O in dOt"
+      "sound": "Like 'AWW'"
     },
     {
       "name": "i",
-      "sound": "O in dOt"
+      "sound": "EE in swEEt"
     },
     {
       "name": "u",
-      "sound": "O in dOt"
+      "sound": "OO in shOOt"
     },
     {
       "name": "e",
-      "sound": "O in dOt"
+      "sound": "E in spEnt"
     },
     {
       "name": "o",
-      "sound": "O in dOt"
+      "sound": "Like 'OWE'"
     }
   ]
 }
