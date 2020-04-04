@@ -4,6 +4,7 @@ import CharContainer from "../CharContainer/CharContainer";
 import Character from "../Character/Character";
 import hiragana from "../../characters.json";
 import Vowel from "../Vowel/Vowel";
+import ModalCard from "../Modal/Modal";
 
 function Diagram() {
   const [selectedCharacter, setSelectedCharacter] = useState(null);
@@ -27,6 +28,8 @@ function Diagram() {
                       <Character
                         setSelectedCharacter={setSelectedCharacter}
                         char={character.name}
+                        sound={character.sound}
+                        character={character}
                       />
                     </CharContainer>
                   </div>
@@ -42,6 +45,14 @@ function Diagram() {
           })}
         </CharContainer>
       </CharWrapper>
+      <div>
+        {selectedCharacter && (
+          <ModalCard
+            setSelectedCharacter={setSelectedCharacter}
+            selectedCharacter={selectedCharacter}
+          />
+        )}
+      </div>
     </div>
   );
 }
