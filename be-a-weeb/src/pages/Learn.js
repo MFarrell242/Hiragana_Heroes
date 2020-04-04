@@ -3,7 +3,6 @@ import "./main.css";
 //import { Link, Route } from "react-router-dom";
 import Nav from "../components/Nav/Nav";
 import Diagram from "../components/Diagram/Diagram";
-import ModalCard from "../components/Modal/Modal";
 
 function Learn() {
   return (
