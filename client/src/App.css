@@ -79,3 +79,13 @@ body {
   background-image: url('./assets/img/fuji.jpg');
   background-size: cover;
 }
+
+.quizwords {
+  text-align: center;
+}
+
+.quizBox {
+  background-color: lightgrey;
+  width: 40%;
+  margin-left: 30%;
+}
