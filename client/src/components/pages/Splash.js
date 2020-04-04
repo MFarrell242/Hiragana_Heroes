@@ -7,6 +7,9 @@ import React from 'react';
 
 export default function Splash() {
     return (
-        <h1>splash splash</h1>
+        <div className="splashContain">
+            <h1 className="quizwords">Welcome to Hiragana Heroes!</h1>
+            <h2 className="quizwords">The "best" resource on the internet for learning to read and write Hiragana.</h2>
+        </div>
     )
 }
