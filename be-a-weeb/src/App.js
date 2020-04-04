@@ -18,7 +18,7 @@ function App() {
         <Foot />
       </div>
     </Router>
-
+  )
 //find a better place for this
 
 // import CharWrapper from "./components/CharWrapper/CharWrapper";
@@ -51,5 +51,5 @@ function App() {
 //     </div>
 //   );
 // }
-
+  }
 export default App;
