@@ -1,0 +1,222 @@
+{
+  "w/n": [
+    {
+      "name": "wa",
+      "sound": "WA in WAter"
+    },
+    {
+      "name": "blank",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "n",
+      "sound": "N in Not"
+    },
+    {
+      "name": "blank",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "wo",
+      "sound": "WO in WOn't"
+    }
+  ],
+  "r": [
+    {
+      "name": "ra",
+      "sound": "RO in ROt"
+    },
+    {
+      "name": "ri",
+      "sound": "RE in REfresh"
+    },
+    {
+      "name": "ru",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "re",
+      "sound": "ROO in ROOt"
+    },
+    {
+      "name": "ro",
+      "sound": "RO in ROw"
+    }
+  ],
+  "y": [
+    {
+      "name": "ya",
+      "sound": "YA in YAcht"
+    },
+    {
+      "name": "blank",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "yu",
+      "sound": "Like 'YOU'"
+    },
+    {
+      "name": "blank",
+      "sound": "O in dOt"
+    },
+    {
+      "name": "yo",
+      "sound": "YO in YOlk"
+    }
+  ],
+  "m": [
+    {
+      "name": "ma",
+      "sound": "MA in MAw"
+    },
+    {
+      "name": "mi",
+      "sound": "Like 'ME'"
+    },
+    {
+      "name": "mu",
+      "sound": "MOO in MOO"
+    },
+    {
+      "name": "me",
+      "sound": "ME in MEant"
+    },
+    {
+      "name": "mo",
+      "sound": "MO in MOtion"
+    }
+  ],
+  "h/b/p": [
+    {
+      "name": "ha",
+      "sound": "HA in HAha"
+    },
+    {
+      "name": "hi",
+      "sound": "Like 'HE'"
+    },
+    {
+      "name": "fu",
+      "sound": "FOO in FOOL"
+    },
+    {
+      "name": "he",
+      "sound": "HE in HEmp"
+    },
+    {
+      "name": "ho",
+      "sound": "HO in HOld"
+    }
+  ],
+  "n": [
+    {
+      "name": "na",
+      "sound": "NO in NOt"
+    },
+    {
+      "name": "ni",
+      "sound": "NEE in kNEEl"
+    },
+    {
+      "name": "nu",
+      "sound": "Like 'NEW'"
+    },
+    {
+      "name": "ne",
+      "sound": "NE in NEt"
+    },
+    {
+      "name": "no",
+      "sound": "Like 'NO'"
+    }
+  ],
+  "t/d": [
+    {
+      "name": "ta",
+      "sound": "TA in TAught"
+    },
+    {
+      "name": "chi",
+      "sound": "CHEE in CHEEse"
+    },
+    {
+      "name": "tsu",
+      "sound": "Tsu in kaTSU"
+    },
+    {
+      "name": "te",
+      "sound": "TE in TEpid"
+    },
+    {
+      "name": "to",
+      "sound": "TO in TOld"
+    }
+  ],
+  "s/z/j": [
+    {
+      "name": "sa",
+      "sound": "Like 'SAW'"
+    },
+    {
+      "name": "shi",
+      "sound": "Like 'SHE'"
+    },
+    {
+      "name": "su",
+      "sound": "SU in SUite"
+    },
+    {
+      "name": "se",
+      "sound": "SE in SEt"
+    },
+    {
+      "name": "so",
+      "sound": "Like 'SO'"
+    }
+  ],
+  "k/g": [
+    {
+      "name": "ka",
+      "sound": "CA in CAught"
+    },
+    {
+      "name": "ki",
+      "sound": "Like 'KEY'"
+    },
+    {
+      "name": "ku",
+      "sound": "COO in COOl"
+    },
+    {
+      "name": "ke",
+      "sound": "KE in KEnt"
+    },
+    {
+      "name": "ko",
+      "sound": "CO in 'COke'"
+    }
+  ],
+  "-": [
+    {
+      "name": "a",
+      "sound": "Like 'AWW'"
+    },
+    {
+      "name": "i",
+      "sound": "EE in swEEt"
+    },
+    {
+      "name": "u",
+      "sound": "OO in shOOt"
+    },
+    {
+      "name": "e",
+      "sound": "E in spEnt"
+    },
+    {
+      "name": "o",
+      "sound": "Like 'OWE'"
+    }
+  ]
+}
