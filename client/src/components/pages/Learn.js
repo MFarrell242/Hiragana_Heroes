@@ -23,7 +23,7 @@ function Learn() {
           </p>
           <p>
             To get started it's important to understand that the Japanese read
-            and write from the right to left, completely backwords from the
+            and write from top to bottom, right to left, completely opposite from the
             English writing system.
           </p>
         </div>

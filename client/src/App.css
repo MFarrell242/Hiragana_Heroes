@@ -70,11 +70,22 @@
 }
 
 .homeName {
-  color: red;
+  color: #ffb7c5;
   text-align: center;
   margin-top: 0;
 }
 
 body {
-  background-color: lightgray;
+  background-image: url('./assets/img/fuji.jpg');
+  background-size: cover;
+}
+
+.quizwords {
+  text-align: center;
+}
+
+.quizBox {
+  background-color: lightgrey;
+  width: 40%;
+  margin-left: 30%;
 }
