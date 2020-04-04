@@ -1,0 +1,30 @@
+.nav-link {
+  font-size: large;
+  font-weight: 500;
+  background-color: cornflowerblue;
+  margin: 10px;
+  border-radius: 8%;
+}
+.nav-link:hover {
+  opacity: 80%;
+}
+
+.head {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-image: url("../../assets/img/fuji.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lead {
+  color: black;
+  font-weight: 500;
+}
+
+.display-4 {
+  font-weight: 400;
+}

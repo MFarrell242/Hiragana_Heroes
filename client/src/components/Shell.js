@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Splash from "./pages/Splash";
-import Alphabet from "./pages/Classroom";
+import Learn from "./pages/Learn";
 import Exam from './pages/Exam';
 
 export default function Shell() {
@@ -9,7 +9,7 @@ export default function Shell() {
         <div className="contentBox">
             <Switch>
                 <Route exact path="/" component={Splash} />
-                <Route exact path="/Hira101" component={Alphabet} />
+                <Route exact path="/Hira101" component={Learn} />
                 <Route exact path="/HiraQuiz" component={Exam} />
             </Switch>
         </div>
