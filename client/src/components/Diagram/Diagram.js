@@ -9,8 +9,6 @@ import ModalCard from "../Modal/Modal";
 function Diagram() {
   const [selectedCharacter, setSelectedCharacter] = useState(null);
 
-  console.log("SELECTED CHARACTER!", selectedCharacter);
-
   const vowel = ["A", "I", "U", "E", "O"];
 
   return (
